@@ -1,24 +1,7 @@
-# Desenvolvimento de Aplicações Corporativas
+# Desenvolvimento de Aplicações Corporativas.
 
 Repositório contendo exercicios da disciplina de Desenvolvimento de Aplicações Corporativas.
 
-	Projeto de design de projeto Strategy + Factory Method:
 
-	Vantagens de uso do Strategy:
-	
-	O principal benefício é a reutilização de partes do algoritmo com funcionalidades comuns, de modo que nossos algoritmos,
-        em classes Strategy, possam variar independentemente do seu contexto. Ou seja, conseguimos fazer diferentes implementações
-        do mesmo comportamento.
-	
-	
-	Vantagens de uso do factory Method:
-	
-	Encapsula o código que varia, código de instanciação de classe. Cada código de criação fica em um único local, em sua própria 
-        classe, criando assim um ponto único de atualização. Exemplo? Caso tenha de alterar o construtor da classe, digo, como ele é 
-        utilizado pelas classes clientes, deverá alterar apenas esse algoritmo no método de criação e não em todos os códigos clientes 
-        que utilizariam a criação direta
-	
-
-Repositório contendo exercicios da disciplina de Desenvolvimento de Aplicações WEB Avançadas.
 
 Ministrada pelo Prof: Carlos Barbosa.

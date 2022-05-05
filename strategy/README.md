@@ -1,16 +1,26 @@
-# Desenvolvimento de Aplicaçõesn Corporativas
+# Desenvolvimento de Aplicações Corporativas.
 
 Repositório contendo exercicios da disciplina de Desenvolvimento de Aplicações Corporativas.
 
-Projeto de design de projeto Facade
+	Projeto de design de projeto Factory Method + Strategy
+	
+	Vantagens de uso do Factory Method:
+	
+		Evita acoplamentos firmes entre o criador e os produtos concretos.
+		
+		Princípio de responsabilidade única. Você pode mover o código de criação do produto para um único local do programa, facilitando a manutenção do código.
 
-    Vantagens de uso do facade:
+		Princípio aberto/fechado. Você pode introduzir novos tipos de produtos no programa sem quebrar o código cliente existente.
+		
+	Vantagens de uso do Strategy:
+	
+		Pode trocar algoritmos usados dentro de um objeto durante a execução.
+		 
+		Pode isolar os detalhes de implementação de um algoritmo do código que usa ele.
+		
+		Pode substituir a herança por composição.
+ 
+		Princípio aberto/fechado. Você pode introduzir novas estratégias sem mudar o contexto.
+	 
 
-    O Padrão Facade nos permite desconectar a implementação do cliente de qualquer subsistema.
-    Assim, se quiséssemos acrescentar novas funcionalidades no subsistema seria necessário
-      apenas alterar a Facade ao invés de alterar diversos pontos do sistema. Além disso,
-      o padrão Facade simplifica uma interface tornando-a muito mais simples e unifica um
-      conjunto de classes mais complexas que pertencem a um subsistema ou seja esse padrão de
-      projeto age como uma fachada melhorando a visualização das implementações.
-
-Ministrada pelo Prof: Carlos Barbosa.
+Materia ministrada pelo Prof: Carlos Barbosa.
